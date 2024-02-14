@@ -1,44 +1,65 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сервер</title>
+    <title>Counter-Strike 1.6 Server - Welcome!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .server-info {
+            text-align: left;
+            margin-top: 40px;
+        }
+        .server-info h2 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .server-info ul {
+            list-style: none;
+            padding: 0;
+        }
+        .server-info ul li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Добро пожаловать на наш сервер!</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#main">Главная</a></li>
-            <li><a href="#vip">VIP</a></li>
-            <li><a href="#ip">IP сервера</a></li>
-            <li><a href="#contacts">Контакты</a></li>
-        </ul>
-    </nav>
-    <section id="main">
-        <h2>Главная</h2>
-        <p>Добро пожаловать на главную страницу нашего сервера!</p>
-    </section>
-    <section id="vip">
-        <h2>VIP</h2>
-        <p>На нашем сервере доступны VIP-привилегии для наших игроков.</p>
-    </section>
-    <section id="ip">
-        <h2>IP сервера</h2>
-        <p>Адрес нашего сервера: <strong>your.server.ip.address</strong></p>
-    </section>
-    <section id="contacts">
-        <h2>Контакты</h2>
-        <p>Если у вас возникли вопросы, обращайтесь по следующим контактам:</p>
-        <ul>
-            <li>Email: example@example.com</li>
-            <li>Телефон: +1234567890</li>
-        </ul>
-    </section>
-    <footer>
-        <p>© 2024 Название вашего сервера</p>
-    </footer>
+    <div class="container">
+        <h1>Welcome to our Counter-Strike 1.6 Server!</h1>
+        <p>Join the action-packed gaming community and experience classic Counter-Strike gameplay.</p>
+        
+        <div class="server-info">
+            <h2>Server Information:</h2>
+            <ul>
+                <li><strong>Server IP:</strong> your_server_ip</li>
+                <li><strong>Server Port:</strong> your_server_port</li>
+                <li><strong>Map Rotation:</strong> de_dust2, cs_office, fy_pool_day, and more</li>
+                <li><strong>Players Online:</strong> 0/32</li> <!-- You can update the number of players dynamically if you have the capability -->
+                <li><strong>Server Rules:</strong> Respect others, no cheating, have fun!</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
