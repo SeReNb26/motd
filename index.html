@@ -3,62 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Counter-Strike 1.6 Server - Welcome!</title>
+    <title>Message of the Day</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
-            color: #333;
             margin: 0;
-            padding: 20px;
-            text-align: center;
+            padding: 0;
         }
         .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+            max-width: 600px;
+            margin: 50px auto;
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        img {
+            width: 100%;
+            display: block;
+        }
+        .message {
+            padding: 20px;
+            text-align: center;
         }
         h1 {
             color: #007bff;
         }
         p {
-            line-height: 1.6;
             margin-bottom: 20px;
-        }
-        .server-info {
-            text-align: left;
-            margin-top: 40px;
-        }
-        .server-info h2 {
-            color: #007bff;
-            margin-bottom: 10px;
-        }
-        .server-info ul {
-            list-style: none;
-            padding: 0;
-        }
-        .server-info ul li {
-            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to our Counter-Strike 1.6 Server!</h1>
-        <p>Join the action-packed gaming community and experience classic Counter-Strike gameplay.</p>
-        
-        <div class="server-info">
-            <h2>Server Information:</h2>
-            <ul>
-                <li><strong>Server IP:</strong> your_server_ip</li>
-                <li><strong>Server Port:</strong> your_server_port</li>
-                <li><strong>Map Rotation:</strong> de_dust2, cs_office, fy_pool_day, and more</li>
-                <li><strong>Players Online:</strong> 0/32</li> <!-- You can update the number of players dynamically if you have the capability -->
-                <li><strong>Server Rules:</strong> Respect others, no cheating, have fun!</li>
-            </ul>
+        <img src="https://example.com/your-image.jpg" alt="CS 1.6 Server" />
+        <div class="message">
+            <h1>Welcome to Our CS 1.6 Server!</h1>
+            <p>Join the action-packed gaming community and experience classic Counter-Strike gameplay.</p>
+            <p>Server IP: your_server_ip</p>
+            <p>Server Port: your_server_port</p>
         </div>
     </div>
 </body>
